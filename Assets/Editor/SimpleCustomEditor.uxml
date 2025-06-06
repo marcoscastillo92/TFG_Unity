@@ -1,0 +1,22 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/SimpleCustomEditor.uss?fileID=7433441132597879392&amp;guid=d1908d211955c6543a85b280bccd0a9a&amp;type=3#SimpleCustomEditor" />
+    <engine:TabView class="custom-tab-view">
+        <engine:Tab label="Nature" name="NatureTab" class="custom-tab">
+            <engine:ScrollView>
+                <engine:VisualElement style="flex-grow: 1; width: 100px; height: 100px;" />
+            </engine:ScrollView>
+        </engine:Tab>
+        <engine:Tab label="Roads" view-data-key="roads" name="RoadsTab" class="custom-tab">
+            <engine:ListView />
+        </engine:Tab>
+        <engine:Tab label="Vehicles" name="VehiclesTab" class="custom-tab">
+            <engine:ListView />
+        </engine:Tab>
+        <engine:Tab label="Props" name="PropsTab" class="custom-tab">
+            <engine:ListView />
+        </engine:Tab>
+        <engine:Tab label="Buildings" name="BuildingsTab" class="custom-tab">
+            <engine:ListView />
+        </engine:Tab>
+    </engine:TabView>
+</engine:UXML>
